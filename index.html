@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="manifest" href="img/icon/site.webmanifest">
+    <link rel="mask-icon" href="img/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="row text-center">
+      <div class="col-1 menu pe-1 pt-2">
+        <a
+          class="btn menu-link pt-3"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="#fff"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </a>
+
+        <div
+          class="offcanvas offcanvas-start menu w-25"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="text-start p-4">
+            <img
+              src="https://picsum.photos/id/5/40/40"
+              alt="rasm"
+              class="rounded-circle"
+              width="60"
+              height="60"
+            />
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item menu">
+              <div class="accordion-header d-flex ps-4 pe-4" id="headingThree">
+                <div class="w-100 text-start">
+                  <h4 id="tel-status" style="color: #fff">Name..</h4>
+                  <a href="#">Set emoji status</a>
+                </div>
+                <button
+                  class="accordion-button collapsed w-25 menu"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                ></button>
+              </div>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="#fff"
+                    class="bi bi-plus-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                    />
+                  </svg>
+                  <h6 class="add ps-4">Add account</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-people-fill svg" viewBox="0 0 16 16">
+              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+            </svg>
+            </svg>
+            <h6 class="add ps-4">New Group</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-megaphone-fill svg2" viewBox="0 0 16 16">
+              <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+            </svg>
+            <h6 class="add ps-4">New Channel</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-person-fill svg3" viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+            </svg>
+            <h6 class="add ps-4">Contacts</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-telephone-fill svg4" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+            <h6 class="add ps-4">Calls</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-bookmark-fill svg5" viewBox="0 0 16 16">
+              <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+            </svg>
+            <h6 class="add ps-4">Saved Messages</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-gear-fill svg6" viewBox="0 0 16 16">
+              <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+            </svg>
+            <h6 class="add ps-4">Settings</h6>
+          </div>
+          <div class="accordion-body d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-moon-fill svg7" viewBox="0 0 16 16">
+              <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+            </svg>
+            
+            <h6 class="add ps-4">Night mode</h6>
+
+            <div class="form-check form-switch check">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-link menu-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="#fff"
+            class="bi bi-chat"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
+            />
+          </svg>
+          <br />
+          All chats
+        </button>
+        <button type="button" class="btn btn-link menu-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="#fff"
+            class="bi bi-person-circle"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
+          <br />
+          Personal
+        </button>
+        <button type="button" class="btn btn-link menu-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="#fff"
+            class="bi bi-folder"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
+            />
+          </svg>
+          <br />
+          Dars
+        </button>
+        <button type="button" class="btn btn-link menu-link" data-bs-toggle="modal"  data-bs-target="#staticBackdrop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sliders" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
+          </svg> <br>
+          Edit
+        </button>
+      </div>
+      <div class="col-4 coll4">
+        <form action="https://echo.htmlacademy.ru">
+          <input name="search" type="search" class="input" placeholder="Search" autocomplete="off">
+        </form>
+
+        <div class="divca">
+
+          <div class="orab__turuvci">
+            <img class="rounded-circle" src="img/americano_muz.jpg" width="50" height="50" alt="americano_muz">
+            <div class="orab__turvci--div">
+              <div class="div">
+                <h3 class="americano__title">Americano Music</h3>
+                <p class="hour">22:15</p>
+              </div>
+                <h3 class="title__reaksiya">Reaksiya qoldiramiza 👆🏻</h3>
+            </div>
+          </div>
+  
+          <div class="orab__turuvci2"> 
+              <img class="rounded-circle" src="img/mood_studio.jpg" width="50" height="50" alt="mood_studio">
+              <div class="orab__turvci--div2">
+                <div class="div2">
+                  <h3 class="mood__title">Mood_studio__❤</h3>
+                  <p class="hour2">12:01</p>
+                </div>
+                <h3 class="title__obuna">Obuna bo'ling ✅</h3>
+              </div>
+          </div>
+  
+          <div class="orab__turuvci3">
+            <img class="rounded-circle" src="img/nikatin_muz.jpg" width="50" height="50" alt="nikatin_muz">
+            <div class="orab__turvci--div3">
+              <div class="div3">
+                <h3 class="nikatin__title">NIKATIN TM🗽</h3>
+                <p class="hour3">11:36</p>
+              </div>
+              <h3 class="title__tepaga">Tepaga bosvorila👆🏻</h3>
+            </div>
+          </div>
+  
+          <div class="orab__turuvci4">
+            <img class="rounded-circle" src="img/soul.jpg" width="50" height="50" alt="soul">
+            <div class="orab__turvci--div4">
+              <div class="div4">
+                <h3 class="soul__title">Soul💘</h3>
+                <p class="hour4">2:00</p>
+              </div>
+              <h3 class="title__soul">@soul_channels💞</h3>
+            </div>
+          </div>
+          
+          <div class="orab__turuvci5">
+            <img class="rounded-circle" src="img/sanjar.jpg" width="50" height="50" alt="sanjar">
+            <div class="orab__turvci--div5">
+              <div class="div5">
+                <h3 class="sanjar__title">Sanjar</h3>
+                <p class="hour5">0:37</p>
+              </div>
+              <h3 class="title__my">myteam.zip</h3>
+            </div>
+          </div>
+  
+          <div class="orab__turuvci6">
+            <img class="rounded-circle" src="img/vk.jpg" width="50" height="50" alt="vk">
+            <div class="orab__turvci--div6">
+              <div class="div6">
+                <h3 class="vk__title">Vk Music Bot</h3>
+                <p class="hour6">1:12</p>
+              </div>
+              <h3 class="title__shox">Shoxrux - Okean</h3>
+            </div>
+          </div>
+          
+          <div class="orab__turuvci7">
+            <img class="rounded-circle" src="img/safiyyulloh.jpg" width="50" height="50" alt="safiyyulloh">
+            <div class="orab__turvci--div7">
+              <div class="div7">
+                <h3 class="safiyulloh__title">Safiyulloh</h3>
+                <p class="hour7">18:18</p>
+              </div>
+              <h3 class="title__photo"><img src="img/nikatin_muz.jpg" width="15" height="15" alt="nikatin_muz"> <span class="span">Photo</span></h3>
+            </div>
+
+          </div>
+
+          <div class="orab__turuvci7">
+            <img class="rounded-circle" src="img/yashinov_oficial.jpg" width="50" height="50" alt="yashinov_oficial">
+            <div class="orab__turvci--div7">
+              <div class="div7">
+                <h3 class="yashinov__oficial--title">Yashinov_official⚜️</h3>
+                <p class="hour8">26:00</p>
+              </div>
+              <h3 class="title__yashinov--oficial">
+                <img src="img/americano_muz.jpg" width="15" height="15" alt="americano_muz">
+                💔
+              </h3>
+            </div>
+          </div>
+
+          <div class="orab__turuvci7">
+            <img class="rounded-circle" src="img/wednesday.jpg" width="50" height="50" alt="wednesday">
+            <div class="orab__turvci--div7">
+              <div class="div7">
+                <h3 class="wednesday__title">𝓦𝓮𝓭𝓷𝓮𝓼𝓭𝓪𝔂 🤍</h3>
+                <p class="hour9">11:29</p>
+              </div>
+              <h3 class="title__4">4 photos</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 text-lg-start">
+        <div class="bg_3">
+          <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0">
+            <li>
+              <h2 class="ttle">Americano Music</h2>
+              <p class="subscribes">93 618 subscribes</p>
+            </li>
+            <li class="li">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#fff" class="bi bi-search me-2" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(23, 71, 160)" class="bi bi-layout-sidebar-reverse me-2" viewBox="0 0 16 16">
+                <path d="M16 3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3zm-5-1v12H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h9zm1 0h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-2V2z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="bgg">
+            <h3 class="sana text-center mt-2">February 1</h3>
+            <div class="dvv">
+              <h4 class="amercano">Americano Music</h4>
+              <img class="hhh__img" src="img/hhh.jpg" width="300" height="350" alt="hhh">
+            </div>
+
+            <div>
+              <audio class="audio" controls="">
+                <source class="x" src="media/audio/Лейла-(speed up).mp3">
+              </audio>
+              <h3 class="muzik__name">Jah Khalib-Лейла ▶</h3>
+            </div>
+        </div>
+        <h2 class="unmute text-center">UNMUTE</h2>
+      </div>
+
+      <div class="col-3 coll3 border border-primary">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active me-2 ms-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Emoji</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Stickers</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">GIFS</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active me-2" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <ul class="list-unstyled d-flex flex-wrap ms-2 mt-2 nmadr">
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+              <li class="list__itemm">😁</li><li class="list__itemm">😁</li>
+            </ul>
+            
+          </div>
+          <div class="tab-pane fade tbb me-2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video> 
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+            <video width="60" height="60" autoplay loop muted plays-inline src="img/sticker.webm"></video>
+          </div>
+          <div class="tab-pane fade tbb" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+            <video width="70" height="70" autoplay loop muted plays-inline src="img/gif.mp4"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>    
+</html>
